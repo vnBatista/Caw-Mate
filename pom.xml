@@ -9,11 +9,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
-        <exec.mainClass>com.demo.cawmate.CawMate</exec.mainClass>
+        <exec.mainClass>demo.cawmate.CawMate</exec.mainClass>
     </properties>
-        <dependencies>
-            <groupID>mysql</groupID>
-            <artificialID>mysql-conector-java</artificialID>
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
             <version>8.0.19</version>
-        </dependencies>
+        </dependency>
+    </dependencies>
 </project>
