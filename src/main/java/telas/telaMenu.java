@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.mycompany.menubar;
+package telas;
 /**
  *
  * @author 824143195
@@ -41,7 +41,7 @@ public class telaMenu extends javax.swing.JFrame {
         perfilButton.setText("Perfil");
         perfilButton.setAlignmentY(0.0F);
         perfilButton.setBorder(null);
-        perfilButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        perfilButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         perfilButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 perfilButtonActionPerformed(evt);
@@ -54,7 +54,7 @@ public class telaMenu extends javax.swing.JFrame {
         aulasButton.setForeground(new java.awt.Color(238, 241, 241));
         aulasButton.setText("Aulas");
         aulasButton.setBorder(null);
-        aulasButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        aulasButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         aulasButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 aulasButtonActionPerformed(evt);
@@ -67,7 +67,7 @@ public class telaMenu extends javax.swing.JFrame {
         suporteButton.setForeground(new java.awt.Color(238, 241, 241));
         suporteButton.setText("Suporte");
         suporteButton.setBorder(null);
-        suporteButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        suporteButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         suporteButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 suporteButtonActionPerformed(evt);
@@ -80,7 +80,7 @@ public class telaMenu extends javax.swing.JFrame {
         termosButton.setForeground(new java.awt.Color(238, 241, 241));
         termosButton.setText("Termos de Uso");
         termosButton.setBorder(null);
-        termosButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        termosButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         termosButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 termosButtonActionPerformed(evt);
@@ -93,7 +93,7 @@ public class telaMenu extends javax.swing.JFrame {
         politicasButton.setForeground(new java.awt.Color(238, 241, 241));
         politicasButton.setText("Políticas de Privacidade");
         politicasButton.setBorder(null);
-        politicasButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        politicasButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         politicasButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 politicasButtonActionPerformed(evt);
@@ -106,7 +106,7 @@ public class telaMenu extends javax.swing.JFrame {
         sairButton.setForeground(new java.awt.Color(238, 241, 241));
         sairButton.setText("Sair");
         sairButton.setBorder(null);
-        sairButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        sairButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         sairButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sairButtonActionPerformed(evt);
@@ -119,7 +119,7 @@ public class telaMenu extends javax.swing.JFrame {
         voltarButton.setForeground(new java.awt.Color(238, 241, 241));
         voltarButton.setText("Voltar");
         voltarButton.setBorder(null);
-        voltarButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        voltarButton.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         voltarButton.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         voltarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,44 +127,44 @@ public class telaMenu extends javax.swing.JFrame {
             }
         });
         getContentPane().add(voltarButton);
-        voltarButton.setBounds(510, 10, 90, 16);
+        voltarButton.setBounds(510, 10, 90, 18);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void perfilButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_perfilButtonActionPerformed
-        telaPerfil perfil = new telaPerfil();
-        perfil.setVisible(true);
+        //telaPerfil perfil = new telaPerfil();
+        //perfil.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_perfilButtonActionPerformed
 
     private void aulasButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aulasButtonActionPerformed
-        telaAulas aulas = new telaAulas();
-        aulas.setVisible(true);
+        //telaAulas aulas = new telaAulas();
+        //aulas.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_aulasButtonActionPerformed
 
     private void suporteButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_suporteButtonActionPerformed
-        telaSuporte suporte = new telaSuporte();
-        suporte.setVisible(true);
+        //telaSuporte suporte = new telaSuporte();
+        //suporte.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_suporteButtonActionPerformed
 
     private void termosButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_termosButtonActionPerformed
-        telaTermos termos = new telaTermos();
-        termos.setVisible(true);
+        //telaTermos termos = new telaTermos();
+        //termos.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_termosButtonActionPerformed
 
     private void politicasButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_politicasButtonActionPerformed
-        telaPolitica politicas = new telaPolitica();
-        politicas.setVisible(true);
+        //telaPolitica politicas = new telaPolitica();
+        //politicas.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_politicasButtonActionPerformed
 
     private void sairButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sairButtonActionPerformed
-        telaLogin login = new telaLogin();
-        login.setVisible(true);
+        //telaLogin login = new telaLogin();
+        //login.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_sairButtonActionPerformed
 
